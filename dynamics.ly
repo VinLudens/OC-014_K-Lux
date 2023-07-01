@@ -38,7 +38,7 @@ dynamics = {
   s4 s2.\< |
   s1\sp | s1 | s1 | s1 | s1 | s1 | s1 |
   s1\p | s1 |
-  s1\mp |
+  s1-\tweak X-offset #-1.2 -\mp |
   s8 s8\< s2. |
   s1\! | s1 |
   s1\crescPoco | s1 |
@@ -48,7 +48,7 @@ dynamics = {
   s2 s2\> |
   s1\! |
   s1.\p | s1. | s1. | s1. | s1. |
-  s1.\mp | s1. |
+  s1.-\tweak X-offset #-0.3 -\mp | s1. |
   s2. |
   s1. |
   s1.\cresc |

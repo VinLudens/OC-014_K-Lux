@@ -138,7 +138,7 @@ right = \absolute {
 
   gis''16( g'' e'' dis'' cis'' b' ais' gis') gis''16( g'' e'' dis'' cis'' b' ais' gis') |
   gis''16( g'' e'' dis'' cis'' b' ais' gis') gis''16( ais'' b'' cis''' dis''' e''' g''' gis''') |
-  gis''16( ais'' b'' cis''' dis''' e''' g''' gis''') gis''16( ais'' b'' cis''' dis''' e''' g''' gis''' |
+  gis''16( ais'' b'' cis''' dis''' e''' g''' gis''') gis''16\shape #'((0 . -0.5) (0 . 0) (0 . 2) (0 . -2.5))( ais'' b'' cis''' dis''' e''' g''' gis''' |
   ais'''1) |
   gis''8\( g'' b''4\)\fermata ais'' fis'' ~ |
 
@@ -233,7 +233,7 @@ right = \absolute {
   a8 e'4\) ~ e'4. ~ e'8 d'\( c' g'4 e'8 |
   b8\) c' g b8 c' g b8 c' g\( b c' d' |
   e'8 e'4\) ~ e'4. ~ e'8 g'\( a' b'4 c''8 |
-  b'8\prall\) g' e' b'8 g' e' b'8 g' e'\( d''8 c'' b' |
+  b'8\tweak Y-offset #-4.5 \prall\) g' e' b'8 g' e' b'8 g' e'\( d''8 c'' b' |
   c''8 d'' e'' e''4.\) ~ e''8 d''\( c'' g''4 e''8 | \voiceOne
   a''8 b'' a'' g''\) b'' a'' g'' b'' a'' g'' b'' a'' |
   g'' b'' a'' g'' b'' a'' g'' b'' a'' g'' b'' a'' |
@@ -513,7 +513,7 @@ right = \absolute {
     }
   >> \oneVoice
   \tuplet 3/2 { f'8\prall e' f' } a'4.\) 8\( g'4\) |
-  f'8\( e' \voiceTwo f'2.\) \oneVoice |
+  f'8_\( e' \voiceTwo f'2.\) \oneVoice |
   s1 | \voiceOne
   s8 <f a c' f'>16 q q <a c' f' a'> q q <c' f' a' c''> q q <f' a' c'' f''> q q <a' c'' f'' a''> q |
   q <c'' f'' a'' c'''> q q <f'' a'' c''' f'''> q q <a'' c''' f''' a'''> q q <c''' f''' a''' c''''> q q <f''' a''' c'''' f''''>8.\arpeggio |

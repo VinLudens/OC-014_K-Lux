@@ -228,7 +228,7 @@ left = \absolute {
   >> \oneVoice
   %\time 4/4
   << { \voiceOne \change Staff = "right"
-       r4 g'8\( ~ g'4 e''8. d'' c''4\) b'8\( c'' |
+       r4 g'8\tweak positions #'(2.5 . 2)\( ~ g'4 e''8. d'' c''4\) b'8\( c'' |
         <e' g' b' d''>2.\) \tuplet 12/6 { \tiny g''16( a'' b'' c''' d''' e''' f''' g''' a''' b''' c'''' d'''') } r4. |
         r4. <f'' a'' c''' e'''>8 q q q q q q q r |
         r4. <e'' g'' b'' d'''>8 q q q q q q q r |
